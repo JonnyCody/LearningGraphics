@@ -121,7 +121,7 @@ hittable_list random_scene() {
 }
 
 
-color ray_color(const ray& r, const color& background, const hittable& world, int depth) {
+color  ray_color(const ray& r, const color& background, const hittable& world, int depth) {
     hit_record rec;
 
     // If we've exceeded the ray bounce limit, no more light is gathered.
